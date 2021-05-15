@@ -5,7 +5,7 @@
 > Take design inspiration from below 
 > 
 >>https://www.smilefoundationindia.org/
->
+>+  0
 >>https://isha.sadhguru.org/in/en
 
 
@@ -33,5 +33,4 @@
 2. Past work
 3. Upcoming events 
 4. Volunteer to Teach/help
-
 
