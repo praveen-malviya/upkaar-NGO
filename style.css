@@ -1,11 +1,56 @@
+
+
+:root {
+    --primary-color: #60A5FA;
+    --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+
+}
+
 body{
-    text-align: center;
+    /* text-align: center; */
     /* background-size: 33%; */
     /* background-image: url(/images/Logo\ Transparent.png); */
     /* background-repeat: no-repeat */
 
 }
 
+nav{
+    text-align: center;
+}
 nav img {
     max-width: 190px;
+
 }
+
+.carousel {
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+.carousel_image{
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+
+    animation: slider 12s steps(4) infinite;
+}
+
+.carousel_image img {
+    width: 25%;
+    float: left;
+    
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    100%{
+        left: -400%;
+    }
+    
+}
+
