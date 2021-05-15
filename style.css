@@ -1,17 +1,14 @@
 
 
 :root {
-    --primary-color: #60A5FA;
-    --dark-gray: #6B7280;
-    --off-white: #E5E7EB;
+    --primary-color:#44d48e;
+    --secondary-color: #08becf;
+    --off-white: #ECFDF5;
 
 }
 
 body{
-    /* text-align: center; */
-    /* background-size: 33%; */
-    /* background-image: url(/images/Logo\ Transparent.png); */
-    /* background-repeat: no-repeat */
+    background-color: var(--off-white);
 
 }
 
