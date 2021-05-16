@@ -27,6 +27,12 @@ nav img {
 
 }
 
+.top-bar{
+        height: 7px;
+        background-color: var(--primary-color);
+
+}
+
 .carousel {
     overflow: hidden;
     /* width: 100%; */
@@ -64,9 +70,11 @@ nav img {
 
 .donate{
     margin-top: 0;
+    padding: 2%;
     background-color: var(--secondary-color);
     color: white;
 }
+
 
 .donate h2{
     /* margin-top: 0; */
