@@ -29,7 +29,12 @@ nav{
 
 .flexone{
 flex: 2;
-background-color: yellowgreen;
+/* background-color: yellowgreen; */
+color: var(--primary-color);
+}
+
+.flexone i{
+    margin-left: 15px;
 }
 
 .imageLogo{
@@ -55,8 +60,7 @@ background-color: yellowgreen;
 }
 
 .flexfour a{
-    /* width: 20%; */
-margin: 10px; 
+margin: 15px; 
 color: var(--secondary-color);
 
 }
@@ -131,11 +135,18 @@ p{
     margin-top: 0;
 }
 
+h3{
+    margin-bottom: 0;
+}
+
 .upcoming-events{
     /* display: flex; */
+    text-align: center;
+
 
 }
 
 .upcoming-events div img{
-    width: 100%;
+    width: 70%;
+    border-radius: 10px;
 }
