@@ -16,17 +16,52 @@ body{
     font-family: 'Crimson Pro', serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
 nav{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
 }
-nav img {
-    max-width: 190px;
-    width: 30%;
+
+.flexone{
+flex: 2;
+background-color: yellowgreen;
+}
+
+.imageLogo{
+    max-width: 120px;
+    width: 8%;
+    flex: 1;
+    margin-right: 10px;
 
 }
+
+.imageLogoName{
+    max-width: 190px;
+    width: 25%;
+
+    flex: 1;
+}
+
+.flexfour{
+    flex: 2;
+    text-align: center;
+    /* background-color: yellow; */
+   
+}
+
+.flexfour a{
+    /* width: 20%; */
+margin: 10px; 
+color: var(--secondary-color);
+
+}
+
+
 
 .top-bar{
         height: 7px;
@@ -71,7 +106,8 @@ nav img {
 
 .donate{
     margin-top: 0;
-    padding: 2%;
+    padding: 2px;
+
     background-color: var(--secondary-color);
     color: white;
 }
@@ -85,13 +121,9 @@ nav img {
     background-color: var(--primary-color);
 }
 
-
-
-
-
-/* about us */
+/************ about us ****************/
 h2{
-    /* margin-top: 0; */
+
     margin-bottom: 0;
 }
 
@@ -99,4 +131,11 @@ p{
     margin-top: 0;
 }
 
+.upcoming-events{
+    /* display: flex; */
 
+}
+
+.upcoming-events div img{
+    width: 100%;
+}
