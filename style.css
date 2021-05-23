@@ -46,7 +46,7 @@ color: var(--primary-color);
 .imageLogo{
     max-width: 120px;
     width: 8%;
-    flex: 2;
+    flex: 1;
     margin-right: 10px;
 
 }
@@ -141,6 +141,8 @@ color: var(--secondary-color);
     background-color: var(--primary-color);
     color: whitesmoke;
 }
+
+
 
 /************ about us ****************/
 h2{
