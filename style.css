@@ -33,6 +33,12 @@ flex: 2;
 color: var(--primary-color);
 }
 
+@media only screen and (max-width: 600px) {
+    .flexone {
+     flex: 1;
+    }
+}
+
 .flexone i{
     margin-left: 15px;
 }
@@ -40,27 +46,23 @@ color: var(--primary-color);
 .imageLogo{
     max-width: 120px;
     width: 8%;
-    flex: 1;
+    flex: 2;
     margin-right: 10px;
 
 }
 
-.imageLogoName{
-    max-width: 190px;
-    width: 25%;
-
-    flex: 1;
-}
 
 .flexfour{
     flex: 2;
-    text-align: center;
+    text-align: right;
+    
     /* background-color: yellow; */
    
 }
 
-.flexfour a{
+.flexfour p{
 margin: 15px; 
+text-shadow: 1px 1px 2px var(--primary-color);
 color: var(--secondary-color);
 
 }
@@ -68,7 +70,7 @@ color: var(--secondary-color);
 
 
 .top-bar{
-        height: 7px;
+        height: 8px;
         background-color: var(--primary-color);
 
 }
@@ -110,19 +112,34 @@ color: var(--secondary-color);
 
 .donate{
     margin-top: 0;
-    padding: 2px;
-
+    padding: 10px 0px;
     background-color: var(--secondary-color);
     color: white;
+
 }
 
 
 .donate h2{
-    /* margin-top: 0; */
+    margin-top: 0;
 }
 
-.donate button{
+.donate a{
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-family: "montserrat";
+    border: 1px solid var(--primary-color);
+    transition: .2s;
+
+}
+
+.donate a:hover{
     background-color: var(--primary-color);
+    color: whitesmoke;
 }
 
 /************ about us ****************/
