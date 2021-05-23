@@ -37,6 +37,10 @@ color: var(--primary-color);
     .flexone {
      flex: 1;
     }
+    .flexfour p{
+        font-size: 15px;
+    }
+
 }
 
 .flexone i{
