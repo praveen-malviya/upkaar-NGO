@@ -137,6 +137,7 @@ color: var(--secondary-color);
     border-radius: 3px;
     font-family: "montserrat";
     border: 1px solid var(--primary-color);
+    /* border: 1px solid white; */
     transition: .2s;
 
 }
@@ -146,12 +147,30 @@ color: var(--secondary-color);
     color: whitesmoke;
 }
 
+/* @media only screen and (max-width: 600px) {
+    .donate a{
+        background-color: var(--primary-color);
+        color: white;
+    } */
 
 
 /************ about us ****************/
+.aboutUs {
+        margin: 10px 10px;
+    /* border: 1px solid black; */
+
+
+}
+
 h2{
 
     margin-bottom: 0;
+}
+
+.aboutUs p{
+    color: var(--primary-color);
+    margin-top: 2px;
+    
 }
 
 p{
