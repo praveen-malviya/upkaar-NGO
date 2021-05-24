@@ -125,6 +125,10 @@ color: var(--secondary-color);
 
 .donate h2{
     margin-top: 0;
+    margin-left: 5px;
+}
+.donate p{
+    margin-left: 5px;
 }
 
 .donate a{
@@ -147,11 +151,11 @@ color: var(--secondary-color);
     color: whitesmoke;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .donate a{
+@media only screen and (max-width: 600px) {
+    .donate a:hover, .donate a:active{
         background-color: var(--primary-color);
-        color: white;
-    } */
+    color: whitesmoke;
+    }
 
 
 /************ about us ****************/
@@ -159,7 +163,10 @@ color: var(--secondary-color);
         margin: 10px 10px;
     /* border: 1px solid black; */
 
+}
 
+.aboutUs h2{
+    font-size: 26px;
 }
 
 h2{
