@@ -52,6 +52,7 @@ color: var(--primary-color);
     width: 8%;
     flex: 1;
     margin-right: 10px;
+    filter: drop-shadow(2px 2px 2px);
 
 }
 
